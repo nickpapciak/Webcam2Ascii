@@ -1,0 +1,24 @@
+---
+# maintaining a 3:1 aspect ratio helps
+width: 180
+height: 60
+
+# doubles the resolution 
+extreme resolution: no
+
+# list arranged from most dense to least dense
+density: $@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft|()1[]?-_+~<>i!lI;:,^`'.
+
+# amount of spaces to include at the end of the list
+padding: 8
+
+background: 
+  dark: yes
+  light: no
+
+# method to convert three [0, 255] RGB values to one grayscale [0, 255]
+grayscale method: 
+  average: no
+  luma: yes
+  desaturation: no
+...
